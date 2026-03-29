@@ -1,0 +1,13 @@
+[project]
+name = "receiptscanner"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.135.2",
+    "opencv-python>=4.13.0.92",
+    "pillow>=12.1.1",
+    "pytesseract>=0.3.13",
+    "requests>=2.33.0",
+]
